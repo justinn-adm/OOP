@@ -21,8 +21,8 @@ class Cat extends Animal {
 public class PolymorphismExample {
     public static void main(String[] args) {
         Animal myAnimal = new Animal();
-        Animal myDog = new Dog(); // Polymorphism
-        Animal myCat = new Cat(); // Polymorphism
+        Animal myDog = new Dog(); 
+        Animal myCat = new Cat();
 
         myAnimal.makeSound(); 
         myDog.makeSound();    
